@@ -1,0 +1,26 @@
+#class 12 string
+
+a=5
+print("value of a is %d" % (a))
+print("value of a is {}".format(a))
+
+a,b,c = 1,2,3
+print("a={2}, b={1}, c={0}".format(b,c,a))
+
+name="jatin katyal"
+company="shuttl"
+print("Hello {name} welcome to my facebook".format(name=name,company=company))
+
+print(f"name ={name}")
+
+print(len("a\nb"))
+print(len(r"a\nb"))
+for c in (r"a\nb"):
+    print(c)
+for c in ("a\nb"):
+    print(c)
+
+print("     jatin    ".strip())
+print("1,2,3,4,5".split(","))
+print("jatin katyal".replace("a","o"))
+print("jatin katyal".count("a"))

@@ -1,0 +1,35 @@
+def func():
+    return 1+4
+a=func
+print(a())
+
+lambda a,b:a+b
+print("Hello World")
+show=print
+show("something")
+
+names=["jatin","saranab","shubham","samarth"]
+for name in enumerate(names):
+    print(name)
+for name in enumerate(names):
+    print(name[0], name[1])
+for i,name in enumerate(names):
+    print(i,"-",name)
+
+#swaping in python
+a=5
+b=9
+b,a=a,b
+print(a,b)
+
+a=1,2
+print(type(a))
+
+names=["jatin","saranab","shubham","samarth"]
+scores=[50,60,90,70]
+states=["delhi","goa","delhi","punjab"]
+for i,name in enumerate(names):
+    score=scores[i]
+    print(name,"-",score)
+for name,score,state in zip(names,scores,states):
+    print(name,"-",score,state)
